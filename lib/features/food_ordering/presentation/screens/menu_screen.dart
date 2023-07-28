@@ -30,7 +30,7 @@ class _MenuScreenState extends State<MenuScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            appBar(width),
+            appBar(width: width),
             const SizedBox(
               height: 5,
             ),
